@@ -1,0 +1,81 @@
+#root {
+  margin: 0 auto;
+}
+
+div.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
+  justify-content: center;
+}
+
+.grids-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 24px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 2px solid #333;
+  min-width: 300px;
+  min-height: 400px;
+  box-sizing: border-box;
+}
+
+.day-grid {
+  background: #fff;
+  border-right: none;
+}
+.night-grid {
+  background: #000;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-cell {
+  box-sizing: border-box;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+  display: inline-block;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.scores {
+  display: flex;
+  gap: 32px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.ball {
+  pointer-events: none;
+  position: absolute;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.15);
+}
+
+.day-ball {
+  background: black;
+}
+
+.night-ball {
+  background: white;
+}

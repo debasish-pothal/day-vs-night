@@ -1,0 +1,10 @@
+i have created a react project structure for day vs night, you can install any other package is required
+
+it is a ping-pong game between day and night, the rules are below
+
+1: the screen should be devided into 2 equal parts, white for day and black for night
+2: each side should be devided into small small parts ( e.g 10px * 10px )
+3: both part should have a ball ( 10px * 10px, border-radius: 50% ), day will have a black ball and night will have a white ball
+4: there should be a button on the buttom which will start the game, and score count of day and night
+5: when the day ball bounces and strike any night part that part should become white from black ( remomber we have deviced into 10px * 10px ), and vice versa for the night ball
+6: keep doing it infinitely, until either day score becomes 0 or night score becomes 0 
