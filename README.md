@@ -1,3 +1,6 @@
+![day-vs-night](https://github.com/user-attachments/assets/7aee5eab-9ec7-4ca7-b3b3-c47593c1c9c5)
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -13,6 +16,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## Creating the Project
 
-1: clone the repo
-2: `npm install` to install all dependancies
-3: `npm run dev` to start the app on localhost
+- clone the repo
+-  `npm install` to install all dependancies
+- `npm run dev` to start the app on localhost
