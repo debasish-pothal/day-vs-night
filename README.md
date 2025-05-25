@@ -13,6 +13,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## Creating the Project
 
-1: clone the repo
-2: `npm install` to install all dependancies
-3: `npm run dev` to start the app on localhost
+- clone the repo
+-  `npm install` to install all dependancies
+- `npm run dev` to start the app on localhost
